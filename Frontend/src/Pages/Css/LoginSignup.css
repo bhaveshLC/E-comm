@@ -1,0 +1,92 @@
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+   margin: 100px 0px;
+}
+.reg_success{
+    color: green;
+    font-size: 20px;
+    font-weight: 500;
+}
+.reg_error{
+    color: red;
+    font-size: 20px;
+    font-weight: 500;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 400px;
+    align-items: center;
+    border: 2px solid salmon;
+    background: linear-gradient(180deg, #fde1ff, white 100%);
+    padding: 30px;  
+    border-radius: 15px;
+}
+
+.container h1{
+    text-align: center;
+    color: #ff4141;
+    margin-bottom: 10px;
+}
+.input-field{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 300px;
+    margin-bottom: 20px;
+}
+.input-field input{
+    border: none;
+    outline: none;
+    border-bottom: 3px solid #ccc;
+    border-radius: 10px;
+    font-size: 20px;
+    height: 40px;
+}
+.input-field input::placeholder{
+    padding-left: 10px;
+    color: #ee8a8a;
+}
+
+button{
+    width: 300px;
+    height: 50px;
+    background: #ff4141;
+    color: white;
+    border-radius: 15px;
+    font-size: 20px;
+    border: none;
+}
+.exists{
+    text-decoration: none;
+    padding-right: 40px;
+    cursor:pointer;
+}
+.link {
+    text-decoration: none;
+    color: #ff4141;
+    font-weight: 600;
+}
+.agree{
+    display: flex;
+    gap: 10px;
+    padding-left: 35px;
+}
+
+.opt-field{
+    display: inline;
+}
+.submitBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.submitBtn h4{
+    color: white;
+    padding-right: 5px;
+}

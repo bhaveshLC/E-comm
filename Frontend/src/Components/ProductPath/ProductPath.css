@@ -1,0 +1,16 @@
+.path{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: gray;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 10px 150px;
+
+}
+@media screen and (max-width: 732px) {
+    .path{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

@@ -1,0 +1,130 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    padding:10px;
+    box-shadow:  0 1px 3px -2px black;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-style: italic;
+    color: red;
+    text-decoration: underline;
+}
+
+.logo h2{
+    color: red;
+    font-weight: 600;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 30px;
+    color: grey;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.menu li:hover{
+    background-color: rgb(211, 205, 205);
+    padding: 4px;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+.menu hr{
+    border: none;
+    width: 80%;
+    height: 3px;
+    border-radius: 10px;
+    background: red;
+    padding-left: 10%;
+}
+.menu li{
+    cursor: pointer;
+    gap: 3px;
+}
+.searchOpt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    border: 2px solid gray;
+    border-radius: 15px;
+    margin-top: 15px;
+    overflow: hidden;
+
+}
+.searchOpt input{
+    font-size: 20px;
+    border: none;
+    outline: none;
+    margin: 5px;
+    
+}
+.searchBtn{
+    padding: 10px;
+    background-color: rgb(197, 191, 191);
+    cursor: pointer;
+}
+.login-cart{
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+
+.login-cart button{
+    width: 150px;
+    height: 50px;
+    outline: none;
+    border:  none;
+    border-radius: 75px;
+    color: gray;
+    font-size: 20px;
+    font-weight: 500;
+    background: white;
+    cursor: pointer;
+}
+
+.login-cart button:hover {
+    background: rgb(170, 149, 149);
+    color: white;
+    transition: 0.6s ease;
+}
+
+.cart-count{
+    width: 22px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -35px;
+    margin-left: -55px;
+    border-radius: 11px;
+    font-size: 15px;
+    background: red;
+    color: white;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar{
+        width: 100%;
+        margin-right: 0px;
+    }
+}
+@media only screen and (max-width: 732px) {
+    .navbar{
+        width: 100%;
+        margin-right: 0px;
+    }
+}
+@media only screen and (max-width: 432px) {
+    .navbar{
+        width: 100%;
+        margin-right: 0px;
+    }
+}
